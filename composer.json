@@ -1,0 +1,23 @@
+{
+    "name": "lucas/digital-cep",
+    "description": "Package para pesquisa de endere\u0000o a partir do CEP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LucasCalgaro",
+            "email": "51975452+LucasCalgaro@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search" : "src/"
+        },
+        "psr-4": {
+            "lucas\\DigitalCep\\" : "src/"
+        }
+    }
+}
